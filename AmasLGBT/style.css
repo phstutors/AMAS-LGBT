@@ -1,0 +1,37 @@
+/* ---- reset ---- */ body{
+     margin:0;
+      font:normal 75% Arial, Helvetica, sans-serif; 
+    } 
+    *{
+        margin: 0!important;
+        padding: 0;
+    }
+canvas{ 
+    display: block; 
+    vertical-align: bottom; } 
+/* ---- particles.js container ---- */
+
+.container2{
+    width: 100%;
+    height: 80vh;
+}
+#particles-js {
+    position: relative;
+    width: 100%!important;
+    height: 100%;
+    background-color: #b61924;
+    background-image: url("Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; /* Centro a imagem */
+}
+      /* ---- stats.js ---- */ 
+           .cardih{
+            width: 220px!important;
+           }
+           .card-group{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+           }
